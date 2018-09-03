@@ -1,0 +1,5 @@
+
+git clone https://github.com/openbaton/openstack4j-plugin.git
+cd openstack4j-plugin
+./gradlew build
+java -jar build/libs/openstack4j-plugin-2.2.1-SNAPSHOT.jar openstack4j localhost 5672 10 admin openbaton
