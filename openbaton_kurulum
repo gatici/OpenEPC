@@ -1,0 +1,8 @@
+
+sh <(curl -fsSL get.docker.com)
+sudo apt-get update && sudo apt-get install python3-pip 
+sudo pip3 install docker-compose
+
+env HOST_IP=172.24.4.32 docker-compose up -d
+
+
